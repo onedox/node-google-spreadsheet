@@ -2,7 +2,7 @@
   "author": "Theo Ephraim <theozero@gmail.com> (http://theoephraim.com)",
   "name": "google-spreadsheet",
   "description": "Google Spreadsheets Data API -- simple interface to read/write rows/cells, manage sheets",
-  "version": "2.0.5-0",
+  "version": "2.0.9-0",
   "license": "Unlicense",
   "keywords": [
     "google spreadsheets",
@@ -26,13 +26,13 @@
   "dependencies": {
     "async": "^2.6.0",
     "google-auth-library": "^1.4.0",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.15",
     "request": "^2.69.0",
     "xml2js": "~0.4.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.5.3"
+    "mocha": "^5.2.0"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha"
